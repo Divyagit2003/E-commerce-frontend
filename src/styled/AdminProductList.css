@@ -1,0 +1,40 @@
+.admin-product-list {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .product-table th {
+    background-color: #f0f2f5;
+    font-weight: bold;
+  }
+  
+  .icon-button {
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .icon-button.edit {
+    color: #3498db;
+  }
+  
+  .icon-button.delete {
+    color: #e74c3c;
+  }
+  

@@ -1,0 +1,88 @@
+/* src/styled/Jumbotron.css */
+.custom-jumbotron {
+    background-color: #fff8dc; /* lighter cream to match navbar hover */
+    color: #333;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+    animation: fadeInUp 1.2s ease-in-out;
+  }
+  
+  .custom-jumbotron:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image Styling */
+  .custom-img-fluid {
+    max-height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+  }
+  
+  /* Heading Styles */
+  .custom-heading {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Paragraph Styles */
+  .custom-lead {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    animation: fadeIn 1.6s ease-in-out;
+  }
+  
+  /* HR Styling */
+  .custom-hr {
+    border-top: 2px solid #f1c40f;
+    width: 80%;
+    margin: 30px auto;
+    animation: fadeIn 1.7s ease-in-out;
+  }
+  
+  /* Paragraph Text */
+  .custom-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    animation: fadeIn 1.8s ease-in-out;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  

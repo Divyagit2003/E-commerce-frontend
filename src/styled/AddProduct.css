@@ -1,0 +1,19 @@
+.myDiv{
+  
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width:40%;
+    margin:auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 3px;
+}
+
+input{
+    width:100%;
+    margin-bottom:3px;
+}

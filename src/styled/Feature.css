@@ -1,0 +1,118 @@
+/* src/styled/Feature.css */
+
+/* Container and Heading */
+.feature-container {
+    margin-top: 60px;
+    padding: 0 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .feature-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .feature-heading::after {
+    content: '';
+    width: 60%;
+    height: 4px;
+    background-color: #ffeaa7;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Card Wrapper */
+  .feature-card {
+    border-radius: 16px;
+    margin-bottom: 30px;
+    padding: 30px 25px;
+    min-height: 240px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Background Colors */
+  .bg-feature-blue {
+    background: linear-gradient(to right, #74b9ff, #0984e3);
+  }
+  
+  .bg-feature-green {
+    background: linear-gradient(to right, #55efc4, #00b894);
+  }
+  
+  .bg-feature-red {
+    background: linear-gradient(to right, #fab1a0, #d63031);
+  }
+  
+  /* Card Content */
+  .feature-card-body {
+    padding: 10px;
+  }
+  
+  .feature-card-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  
+  .feature-card-text {
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #f1f2f6;
+  }
+  
+  /* Footer */
+  .feature-footer {
+    background-color: #2c3e50;
+    margin-top: 50px;
+    padding: 20px 10px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .footer-link {
+    color: #ffeaa7;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .feature-heading {
+      font-size: 2rem;
+    }
+  
+    .feature-card {
+      padding: 25px 20px;
+    }
+  
+    .feature-card-title {
+      font-size: 1.3rem;
+    }
+  
+    .feature-card-text {
+      font-size: 0.95rem;
+    }
+  }
+  
