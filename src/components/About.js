@@ -32,7 +32,7 @@ const About = () => {
         <h2 className="text-center section-heading">Meet the Team</h2>
         <div className="team-cards">
           <div className="card-custom">
-            <img src="./assests/person1.jpg" className="card-img-top" alt="John Doe" />
+            <img src="/assests/person1.jpg" className="card-img-top" alt="John Doe" />
             <div className="card-body">
               <h5 className="card-title">John Doe</h5>
               <p className="card-text">Founder & CEO</p>
